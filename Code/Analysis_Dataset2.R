@@ -1,5 +1,5 @@
 library(readxl)
-sales <- read_excel("SalesVsChargingStations.xlsx")
+sales <- read_excel("Datasets/SalesVsChargingStations.xlsx")
 #View(sales)
 
 y=sales$`SLAES_OF_EV_IN_OCTOBER2021(Units)`

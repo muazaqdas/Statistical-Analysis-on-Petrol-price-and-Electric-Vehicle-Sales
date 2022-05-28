@@ -1,5 +1,5 @@
 library(readxl)
-EV <- read_excel("EV_analysis.xlsx")
+EV <- read_excel("Datasets/EV_analysis.xlsx")
 #View(EV)
 
 y=EV$EV_Sales
